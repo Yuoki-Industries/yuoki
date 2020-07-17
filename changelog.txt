@@ -1,0 +1,58 @@
+Yuoki_0.8.91
+	- fixed Deadlock Stacking - provided by Glendening - Thank You
+	- fixed rocket-fuel icon
+
+Yuoki_0.8.90
+	- pollution-fix provided by ChurchOrganist - Thank You
+
+Yuoki_0.8.88
+	- N4/F7-Chunks spawn fixed
+	
+Yuoki_0.8.87
+	- N4/F7-Chunks as ressource removed
+	- new way to get N4/F7 Chunks implemented
+
+Yuoki_0.8.86
+    - works with factorio 18.0
+
+Yuoki_0.7.85
+	- change: recipe pressed-mud -> mixed fuel (old was solid fuel) -> rocket-fuel
+	- change: Tiny Sol-Ray Stream has a better fitting gfx - output reduced to 1.6 MW  25 kW/Tile
+	- change: Small Sol-Ray Stream - output reduced to 3.75 MW	37.5 kW/Tile
+	- change: generators have clean consumptions in fluid/s (helps to caculate how many engines you need)
+	- change: Boiler 3M6/4 pollution now 54/m
+	- change: recipe hydrotin-gas outputs additional petroleum-gas 
+	- added: MX-C Fuel (7 GJ) can splitted into 10x MX-C Reduced (600 MJ each chemical)
+	- added: crafting blue-signs from all vanilla-science-packs
+	tested with factorio 0.17.79
+ 
+Yuoki_0.7.84
+	- cicuit-cable visibility fixed
+
+Yuoki_0.7.83
+	- compatible with factorio 0.17.48+
+	- stack-sizes for some vanilla products higher as normal
+
+Yuoki_0.7.82
+	- compatible with factorio 0.17.35+
+	- some sort of loang reach included
+
+Yuoki_0.7.81
+	- compatible with factorio 0.17.25+
+	- fix the double-entry bug
+	- added a green turbine to round the line 
+
+Yuoki_0.7.80
+	- compatible with factorio 0.17.12+
+	- Deadlock Stacking Support included
+	- temperatures MC Boiler and MC Turbine changed
+	- new Boiler added, to feed rensuir
+
+Yuoki_0.7.79
+	- compatible with factorio 0.17.9
+	- Hand-Tools removed
+	- some gfx changed to HR
+	- Fuel-Mixer different gfx/animation
+	
+Yuoki_0.7.78
+	first version for factorio 0.17.0

@@ -1,0 +1,11 @@
+
+{
+	"name": "Yuoki",
+	"version": "0.8.91",
+	"date": "2020-7-4",
+	"author": "Yuoki Tani",
+	"factorio_version": "0.18",
+	"dependencies": ["base >= 0.18.2","? DeadlockStacking"],  	
+	"title": "Yuoki Industries",  
+	"description": "adds more content like generators, ressource-transformations, machinery, turrets ..."
+}
