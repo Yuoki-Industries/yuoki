@@ -40,7 +40,6 @@ data:extend(
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-rare-chest-log"},
 		max_health = 300,
-		
 		corpse = "small-remnants",
 		collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
