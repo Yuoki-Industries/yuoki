@@ -241,7 +241,7 @@ data:extend(
 		name = "y_mftank",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/mftank_ico.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {mining_time = 1, result = "y_mftank"},
+		minable = {mining_time = 0.5, result = "y_mftank"},
 		max_health = 500,
 		corpse = "small-remnants",
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
