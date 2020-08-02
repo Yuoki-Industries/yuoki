@@ -151,7 +151,7 @@ data:extend(
 		stack_size = 100,
 		default_request_amount = 20,
 		effect = { productivity = {bonus = 0.30}, consumption = {bonus = 1.0}, pollution = {bonus = -0.1},},
-		--limitation = productivitymodulelimitation(),
+		limitation = productivity_module_limitation(),
 		limitation_message_key = "production-module-usable-only-on-intermediates"
 	},
 	
@@ -205,7 +205,7 @@ data:extend(
 		stack_size = 100,
 		default_request_amount = 20,
 		effect = { productivity = {bonus = 0.05}, consumption = {bonus = 0.125}, pollution = {bonus = -0.075},},
-		--limitation = productivitymodulelimitation(),
+		limitation = productivity_module_limitation(),
 		limitation_message_key = "production-module-usable-only-on-intermediates"
 	},
 
@@ -235,7 +235,7 @@ data:extend(
 		stack_size = 100,
 		default_request_amount = 20,
 		effect = { productivity = {bonus = 0.125}, consumption = {bonus = 0.2}, pollution = {bonus = -0.15},},
-		--limitation = productivitymodulelimitation(),
+		limitation = productivity_module_limitation(),
 		limitation_message_key = "production-module-usable-only-on-intermediates"
 	},
 
@@ -258,7 +258,7 @@ data:extend(
 		stack_size = 100,
 		default_request_amount = 20,
 		effect = { productivity = {bonus = 0.20}, consumption = {bonus = 0.275}, pollution = {bonus = -0.2},},
-		--limitation = productivitymodulelimitation(),
+		limitation = productivity_module_limitation(),
 		limitation_message_key = "production-module-usable-only-on-intermediates"
 	},
 	
