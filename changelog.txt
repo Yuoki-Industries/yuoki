@@ -1,58 +1,108 @@
-Yuoki_0.8.91
-	- fixed Deadlock Stacking - provided by Glendening - Thank You
-	- fixed rocket-fuel icon
-
-Yuoki_0.8.90
-	- pollution-fix provided by ChurchOrganist - Thank You
-
-Yuoki_0.8.88
-	- N4/F7-Chunks spawn fixed
-	
-Yuoki_0.8.87
-	- N4/F7-Chunks as ressource removed
-	- new way to get N4/F7 Chunks implemented
-
-Yuoki_0.8.86
+---------------------------------------------------------------------------------------------------
+Version: 0.8.94
+Date: 04. 08. 2020
+  Fixes:
+    - Fix changelog so it appears in game.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.93
+Date: 02. 08. 2020
+  Locale:
+    - Add locale entries for Buffer Chests
+  Balancing:
+    - Wall mining times reduced to match vanilla
+    - Fluid entity mining times reduced to match vanilla
+---------------------------------------------------------------------------------------------------
+Version: 0.8.92
+Date: 27. 07. 2020
+  Major Features:
+    - Merge changes from Yuoki Tweaks mod
+  Additions:
+    - Circuit Connections to mining drills
+    - Radar Visualisation to Yuoki Radar
+    - Logistic filters to storage chests
+    - Logistic Buffer Chests
+---------------------------------------------------------------------------------------------------
+Version: 0.8.91
+Date: 02. 07. 2020
+  Fixes:
+    - fixed Deadlock Stacking - provided by Glendening - Thank You
+    - fixed rocket-fuel icon
+---------------------------------------------------------------------------------------------------
+Version: 0.8.90
+Date: 13. 04. 2020
+  Fixes:
+    - pollution-fix provided by ChurchOrganist - Thank You
+---------------------------------------------------------------------------------------------------
+Version: 0.8.89
+Date: 20. 02. 2020
+  Fixes:
+    - Fix robot sprite shadow definitions
+---------------------------------------------------------------------------------------------------
+Version: 0.8.88
+Date: 28. 01. 2020
+  Fixes:
+    - N4/F7-Chunks spawn fixed
+---------------------------------------------------------------------------------------------------
+Version: 0.8.87
+Date: 25. 01. 2020
+  Features:
+    - N4/F7-Chunks as ressource removed
+    - new way to get N4/F7 Chunks implemented
+---------------------------------------------------------------------------------------------------
+Version: 0.8.86
+  Features:
     - works with factorio 18.0
-
-Yuoki_0.7.85
-	- change: recipe pressed-mud -> mixed fuel (old was solid fuel) -> rocket-fuel
-	- change: Tiny Sol-Ray Stream has a better fitting gfx - output reduced to 1.6 MW  25 kW/Tile
-	- change: Small Sol-Ray Stream - output reduced to 3.75 MW	37.5 kW/Tile
-	- change: generators have clean consumptions in fluid/s (helps to caculate how many engines you need)
-	- change: Boiler 3M6/4 pollution now 54/m
-	- change: recipe hydrotin-gas outputs additional petroleum-gas 
-	- added: MX-C Fuel (7 GJ) can splitted into 10x MX-C Reduced (600 MJ each chemical)
-	- added: crafting blue-signs from all vanilla-science-packs
-	tested with factorio 0.17.79
- 
-Yuoki_0.7.84
-	- cicuit-cable visibility fixed
-
-Yuoki_0.7.83
-	- compatible with factorio 0.17.48+
-	- stack-sizes for some vanilla products higher as normal
-
-Yuoki_0.7.82
-	- compatible with factorio 0.17.35+
-	- some sort of loang reach included
-
-Yuoki_0.7.81
-	- compatible with factorio 0.17.25+
-	- fix the double-entry bug
-	- added a green turbine to round the line 
-
-Yuoki_0.7.80
-	- compatible with factorio 0.17.12+
-	- Deadlock Stacking Support included
-	- temperatures MC Boiler and MC Turbine changed
-	- new Boiler added, to feed rensuir
-
-Yuoki_0.7.79
-	- compatible with factorio 0.17.9
-	- Hand-Tools removed
-	- some gfx changed to HR
-	- Fuel-Mixer different gfx/animation
-	
-Yuoki_0.7.78
-	first version for factorio 0.17.0
+---------------------------------------------------------------------------------------------------
+Version: 0.7.85
+  Features:
+    - tested with factorio 0.17.79
+  Changes:
+    - recipe pressed-mud -> mixed fuel (old was solid fuel) -> rocket-fuel
+    - Tiny Sol-Ray Stream has a better fitting gfx - output reduced to 1.6 MW  25 kW/Tile
+    - Small Sol-Ray Stream - output reduced to 3.75 MW  37.5 kW/Tile
+    - generators have clean consumptions in fluid/s (helps to caculate how many engines you need)
+    - Boiler 3M6/4 pollution now 54/m
+    - recipe hydrotin-gas outputs additional petroleum-gas
+  Additions:
+    - added: MX-C Fuel (7 GJ) can splitted into 10x MX-C Reduced (600 MJ each chemical)
+    - added: crafting blue-signs from all vanilla-science-packs
+---------------------------------------------------------------------------------------------------
+Version: 0.7.84
+  Fixes:
+    - circuit-cable visibility fixed
+---------------------------------------------------------------------------------------------------
+Version: 0.7.83
+  Features:
+    - compatible with factorio 0.17.48+
+    - stack-sizes for some vanilla products higher as normal
+---------------------------------------------------------------------------------------------------
+Version: 0.7.82
+  Features:
+    - compatible with factorio 0.17.35+
+    - some sort of long reach included
+---------------------------------------------------------------------------------------------------
+Version: 0.7.81
+  Features:
+    - compatible with factorio 0.17.25+
+    - added a green turbine to round the line 
+  Fixes:
+    - fix the double-entry bug
+---------------------------------------------------------------------------------------------------
+Version: 0.7.80
+  Features:
+    - compatible with factorio 0.17.12+
+    - Deadlock Stacking Support included
+    - temperatures MC Boiler and MC Turbine changed
+    - new Boiler added, to feed rensuir
+---------------------------------------------------------------------------------------------------
+Version: 0.7.79
+  Major Features:
+    - compatible with factorio 0.17.9
+  Changes:
+    - Hand-Tools removed
+    - some gfx changed to HR
+    - Fuel-Mixer different gfx/animation
+---------------------------------------------------------------------------------------------------
+Version: 0.7.78
+  Major Features:
+    - first version for factorio 0.17.0
