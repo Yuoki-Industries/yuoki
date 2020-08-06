@@ -74,6 +74,10 @@ require("prototypes.objects._tiles")
 require("prototypes.item.y_stacksizes")
 --require("y_config")
 
-data.raw["character"]["character"].inventory_size = 120
---data.raw["character"]["character"].build_distance = 10000
---data.raw["character"]["character"].reach_distance = 10000
+--add list of Yuoki intermeidate producrs to vanilla intermediates (thank you Codec)
+require ("prototypes.y_intermediates_list")
+
+--load configurable character options from settings file
+data.raw["character"]["character"].inventory_size = settings.startup["yuoki-inventory-size"].value
+data.raw["character"]["character"].build_distance = settings.startup["yuoki-player-reach"].value
+data.raw["character"]["character"].reach_distance = settings.startup["yuoki-player-reach"].value
