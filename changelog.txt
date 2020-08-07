@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.8.96
+Date: 07. 08. 2020
+  Major Features:
+    - Release Candidate for Factorio 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.95
+Date: 06. 08. 2020
+  Features:
+    - Adds settings for player reach, inventory size and Yuoki Productivity mod behaviour
+    - Adds Yuoki intermediate products to vanilla list
+    - Yuoki productivity modules beehave as vanilla unless configured not to.
+---------------------------------------------------------------------------------------------------
 Version: 0.8.94
 Date: 04. 08. 2020
   Fixes:
