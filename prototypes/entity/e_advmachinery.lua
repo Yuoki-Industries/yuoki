@@ -67,7 +67,7 @@ data:extend(
 		{
 			module_slots = 2
 		},
-		allowed_effects = {"consumption", "speed", "pollution"},
+		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	},
 
 	{
