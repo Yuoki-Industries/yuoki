@@ -11,7 +11,8 @@ local productivity_item_list=
                         "y-basic-st2-mf-recipe",
                         "y-chip2-recipe",
                         "yi_magnetron_recipe",
-                        "y_ammo_plasma_recipe",
+                        "y-battery-singleuse1-recipe",
+                        "y-battery-singleuse2-recipe",
                         "y-battery-single-use3-recipe",
                         "y_blocked_capa_recipe",
                         "y-crystal-cnd-recipe",
@@ -19,6 +20,8 @@ local productivity_item_list=
                         "y-fuel-reactor-recipe",
                         "y-infused-mud-recipe",
                         "y-infused-uca2-recipe",
+                        "y_mud2solidfuel_recipe",
+                        "y_mixedfuel2rocketfuel_recipe",
                         "y-mixfuel-load-recipe",
                         "y-wooden-brikett-packed-recipe",
                         "y-pure-copper-recipe",
@@ -26,9 +29,17 @@ local productivity_item_list=
                         "y-refined-copper",
                         "y-refined-iron",
                         "y-wash-dirt-recipe",
+                        "y-mixing-rich-recipe",
+                        "y-press-richdust-recipe",
+                        "y-orange-stuff_recipe",
                         "y-smelt-crush-res1-recipe",
                         "y-smelt-crush-res2-recipe",
                         "y_quantrinum_infusion_recipe",
+                        "y_mox1fuel_recipe",
+                        "y_mox1mixed_recipe",
+                        "y_mox2fuel_recipe",
+                        "y_mox2mixed_recipe",
+                        "y_mox2fuelsplit_recipe",
                         "y_structure_element_recipe",
                         "y-bluegear-recipe",
                         "y_structure_vessel_recipe",
@@ -51,7 +62,8 @@ local productivity_item_list=
                         "y-bullet-case-recipe",
                         "y_ammo_case_recipe",
                         "yi_graphite_recipe",
-                        "y_data_crystal_recipe"
+                        "y_data_crystal_recipe",
+                        "y_gauge_analog_recipe"
                       }
 
 for _, module in pairs(data.raw.module) do
