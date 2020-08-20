@@ -1,5 +1,5 @@
 --require "defines"
-
+require ("scripts.add_yi_suit")
 
 remote.add_interface("yuoki",  
 {
@@ -7,5 +7,5 @@ remote.add_interface("yuoki",
 	game.regenerate_entity("y-res1")
 	game.regenerate_entity("y-res2")
 	end
-})
 
+})
