@@ -1,7 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.00
+Date: 15. 08. 2020
+  Fixes:
+    - Added setting-names.cfg file to fix unknown key errors
+---------------------------------------------------------------------------------------------------
 Version: 0.8.98
 Date: 11. 08. 2020
-  Major Features: 
+  Major Features:
     - Final? Release before Factorio 1.0
   Fixes:
     - Added some intermediates which got missed
