@@ -40,7 +40,7 @@ data:extend(
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-rare-chest-log"},
 		max_health = 300,
-		
+		max_logistic_slots = 1,
 		corpse = "small-remnants",
 		collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -124,6 +124,7 @@ data:extend(
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
 		minable = {mining_time = 1.5, result = "y-rare-m1bunker-log"},
 		max_health = 1400,
+		max_logistic_slots = 1,
 		corpse = "medium-remnants",
 		resistances = {{type = "physical",percent = 50,},{type = "fire",percent = 50,}},
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},

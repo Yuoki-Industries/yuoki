@@ -105,7 +105,7 @@ data:extend(
 				sound = {{filename = "__base__/sound/fight/laser-1.ogg", volume = 0.1}},
 				ammo_type = {
 					type = "projectile",
-					category = "laser-turret",
+					category = "laser",
 					energy_consumption = "500KJ",
 					action = {
 						{
@@ -185,7 +185,7 @@ data:extend(
 			  damage_modifier = 3,
 			  ammo_type =
 			  {
-				 category = "laser-turret",
+				 category = "laser",
 				 energy_consumption = "800kJ",
 				 action =
 				 {

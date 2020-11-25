@@ -40,9 +40,11 @@ local radar_visualisation = data.raw.radar.radar.radius_minimap_visualisation_co
 -- Poke Yuoki Radar Minimap Visualisation def
 data.raw.radar.yi_radar.radius_minimap_visualisation_color = radar_visualisation
 
+--[[ *** This section moved to entity definitions for Factorio 1.1.0
 -- add logistic filter to y-rare-chest-log and y-rare-m1bunker-log
 data.raw["logistic-container"]["y-rare-chest-log"].logistic_slots_count = 1
 data.raw["logistic-container"]["y-rare-m1bunker-log"].logistic_slots_count = 1
+--]]
 
 -- make Yuoki productivity modules obey same rules as vanilla if configured as such.
 

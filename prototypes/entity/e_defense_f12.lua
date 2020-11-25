@@ -90,7 +90,7 @@ data:extend(
 				source_offset = {0, -3.423489 / 4},
 				damage_modifier = 5,
 				ammo_type = {
-					category = "laser-turret",
+					category = "laser",
 					energy_consumption = "800kJ",
 					action = {
 						type = "direct",
@@ -207,7 +207,7 @@ data:extend(
 				range = 30,
 				sound = {
 					{
-						filename = "__base__/sound/railgun.ogg",
+						filename = "__Yuoki__/sounds/railgun.ogg",
 						volume = 0.3
 					}
 				}
@@ -279,7 +279,7 @@ data:extend(
 				range = 28,
 				sound = {
 					{
-						filename = "__base__/sound/railgun.ogg",
+						filename = "__Yuoki__/sounds/railgun.ogg",
 						volume = 0.3
 					}
 				}
