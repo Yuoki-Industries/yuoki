@@ -725,6 +725,8 @@ data:extend(
 		fire = {},
 		fire_glow = {},
 		burning_cooldown = 30,
+		fast_replaceable_group = "y-boiler",
+			next_upgrade = "y_boiler4_tech",
 		-- these are the pipe pictures - boiler is a pipe as well
 		pictures = pipepictures()		
 	},
@@ -822,6 +824,8 @@ data:extend(
 		fire = {},
 		fire_glow = {},
 		burning_cooldown = 30,
+		fast_replaceable_group = "y-boiler",
+			next_upgrade = "y_boiler4_tech",
 		-- these are the pipe pictures - boiler is a pipe as well
 		pictures = pipepictures()
 	},

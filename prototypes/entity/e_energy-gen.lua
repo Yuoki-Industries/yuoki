@@ -87,7 +87,9 @@ data:extend(
 			},
 			fire = {},
 			fire_glow = {},
-			burning_cooldown = 20
+			burning_cooldown = 20,
+			fast_replaceable_group = "y-boiler",
+			next_upgrade = "y_boiler4_tech"
 		},
   
 		-- big steam-turbine
