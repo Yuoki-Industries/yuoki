@@ -1,8 +1,8 @@
 
 {
 	"name": "Yuoki",
-	"version": "1.0.02",
-	"date": "2020-8-20",
+	"version": "1.1.02",
+	"date": "2020-11-26",
 	"author": "Yuoki Tani",
 	"factorio_version": "1.1.0",
 	"dependencies": ["base >= 0.18.35","? DeadlockStacking","! YuokiTweaks"],  	
