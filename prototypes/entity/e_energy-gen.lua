@@ -111,6 +111,8 @@ data:extend(
 					percent = 70
 				}
 			},
+			fast_replaceable_group = "steam-engine",
+			next_upgrade = "y_steam_turbine_mc",
 			collision_box = {{-1.3, -1.7}, {1.3, 1.7}},
 			selection_box = {{-1.5, -2.0}, {1.5, 2.0}},
 			fluid_box = {
@@ -191,6 +193,7 @@ data:extend(
 			effectivity = 1.34,
 			fluid_usage_per_tick = 1.66667,
 			maximum_temperature = 500,
+			fast_replaceable_group = "steam-engine",
 			collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
 			selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 			fluid_box = {

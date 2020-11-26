@@ -242,7 +242,8 @@ data:extend(
 			name = "steam", amount = 0.0, minimum_temperature = 100.0 ,		
 		},			
 		maximum_temperature = 500,
-
+        fast_replaceable_group = "steam-engine",
+		next_upgrade = "y_steam_turbine_gr",
 		energy_source =
 		{
 			type = "electric",
@@ -340,7 +341,8 @@ data:extend(
 			name = "steam", amount = 0.0, minimum_temperature = 100.0 ,		
 		},			
 		maximum_temperature = 250,
-
+        fast_replaceable_group = "steam-engine",
+-- must have same bounding box		next_upgrade = "y-obninsk-turbine",
 		energy_source =
 		{
 			type = "electric",
