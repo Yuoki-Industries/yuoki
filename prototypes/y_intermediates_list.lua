@@ -1,72 +1,75 @@
 --[[Yuoki intermediates script
 Copyright joshrick (Codec) © August 2020
 adds Yuoki intermediate products to the vanilla intermediates list--]]
-local productivity_item_list=
-                      { "y_slag_brick_burn_recipe",
-                        "y_slag_brick_recipe",
-                        "y_slag_granulate_recipe",
-                        "y_hps_steel_recipe",
-                        "y_hps_purecopper_recipe",
-                        "y_hps_pureiron_recipe",
-                        "y-basic-st2-mf-recipe",
-                        "y-chip2-recipe",
-                        "yi_magnetron_recipe",
-                        "y-battery-singleuse1-recipe",
-                        "y-battery-singleuse2-recipe",
-                        "y-battery-single-use3-recipe",
-                        "y_blocked_capa_recipe",
-                        "y-crystal-cnd-recipe",
-                        "y-quantrinum-recipe",
-                        "y-fuel-reactor-recipe",
-                        "y-infused-mud-recipe",
-                        "y-infused-uca2-recipe",
-                        "y_mud2solidfuel_recipe",
-                        "y_mixedfuel2rocketfuel_recipe",
-                        "y-mixfuel-load-recipe",
-                        "y-wooden-brikett-packed-recipe",
-                        "y-pure-copper-recipe",
-                        "y-pure-iron-recipe",
-                        "y-refined-copper",
-                        "y-refined-iron",
-                        "y-wash-dirt-recipe",
-                        "y-mixing-rich-recipe",
-                        "y-press-richdust-recipe",
-                        "y-orange-stuff_recipe",
-                        "y-smelt-crush-res1-recipe",
-                        "y-smelt-crush-res2-recipe",
-                        "y_quantrinum_infusion_recipe",
-                        "y_mox1fuel_recipe",
-                        "y_mox1mixed_recipe",
-                        "y_mox2fuel_recipe",
-                        "y_mox2mixed_recipe",
-                        "y_mox2fuelsplit_recipe",
-                        "y_structure_element_recipe",
-                        "y-bluegear-recipe",
-                        "y_structure_vessel_recipe",
-                        "y-basic-st1-mf-recipe",
-                        "y_chip_plate_recipe",
-                        "y_dotzetron_recipe",
-                        "y_structure_electric_recipe",
-                        "y-heat-pipe-recipe",
-                        "y-heat-pipe-recipe",
-                        "y-conductive-coil-1-recipe",
-                        "y-conductive-wire-1_recipe",
-                        "y-crush-unicomp-raw-recipe",
-                        "y-crush-fuel-raw-recipe",
-                        "y_slag_granulate_recipe",
-                        "y_steinmehl_recipe",
-                        "y-coaldust-recipe",
-                        "y_granulate_wood_recipe",
-                        "y-unicomp-raw-recipe",
-                        "y-raw-fuelnium-recipe",
-                        "y-bullet-case-recipe",
-                        "y_ammo_case_recipe",
-                        "yi_graphite_recipe",
-                        "y_data_crystal_recipe",
-                        "y_gauge_analog_recipe"
-                      }
+local productivity_item_list = {
+	"y_slag_brick_burn",
+	"y_slag_brick",
+	"y_slag_granulate",
+	"y_hps_steel",
+	"y_hps_purecopper",
+	"y_hps_pureiron",
+	"y-basic-t2-mf",
+	"y_chip_plate",
+	"y-chip-1",
+	"y-chip-2",
+	"yi_magnetron",
+	"y-battery-single-use1",
+	"y-battery-single-use2",
+	"y-battery-single-use3",
+	"y_blocked_capa",
+	"y-crystal-cnd",
+	"y-quantrinum",
+	"y-fuel-reactor",
+	"y-infused-mud",
+	"y-infused-uca2",
+	"y_mud2solidfuel",
+	"y_mixedfuel2rocketfuel",
+	"y-mixfuel-load",
+	"y-wooden-brikett-packed",
+	"y-pure-copper",
+	"y-pure-iron",
+	"y-refined-copper",
+	"y-refined-iron",
+	"y-wash-dirt",
+	"y-mixing-rich",
+	"y-press-richdust",
+	"y-orange-stuff",
+	"y-smelt-crush-res1",
+	"y-smelt-crush-res2",
+	"y_quantrinum_infusion",
+	"y_mox1fuel",
+	"y_mox1mixed",
+	"y_mox2fuel",
+	"y_mox2mixed",
+	"y_mox2fuelsplited",
+	"y_structure_element",
+	"y-bluegear",
+	"y_structure_vessel",
+	"y-basic-t1-mf",
+	"y_chip_plate",
+	"y_dotzetron",
+	"y_structure_electric",
+	"y-heat-pipe",
+	"y-heat-pipe",
+	"y-conductive-coil-1",
+	"y-conductive-wire-1",
+	"y-crush-unicomp-raw",
+	"y-crush-fuel-raw",
+	"y_slag_granulate",
+	"y_steinmehl",
+	"y-coal-dust",
+	"y_granulate_wood",
+	"y-unicomp-raw",
+	"y-raw-fuelnium",
+	"y-bullet-case",
+	"y_ammo_case",
+	"yi_graphite",
+	"y_data_crystal",
+	"y_gauge_analog",
+}
 
-for _, module in pairs(data.raw.module) do
+--[[
+or _, module in pairs(data.raw.module) do
   if module.effect and module.limitation then
     for effect_name in pairs(module.effect) do
       if effect_name == "productivity"then
@@ -77,4 +80,19 @@ for _, module in pairs(data.raw.module) do
       end
     end
   end
+end
+]]
+--
+
+--for productivity_item_list, recipe in pairs(data.raw.recipe) do
+--			recipe.allow_productivity = true
+--end
+
+for k, v in pairs(productivity_item_list) do
+	if data.raw.recipe[v] then
+		data.raw.recipe[v].allow_productivity = true
+	--data.raw.recipe["y-inserter-s4"].order = "c"
+	else
+		log("This isnt a recipe " .. v)
+	end
 end

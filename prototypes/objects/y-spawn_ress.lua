@@ -1,5 +1,1 @@
-data:extend(
-{
-
-  
-})
+data:extend({})

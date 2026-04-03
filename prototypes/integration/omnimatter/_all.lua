@@ -1,0 +1,1 @@
+require("prototypes.integration.omnimatter.ir_atomics") -- Atomics recipe updates

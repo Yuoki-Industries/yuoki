@@ -1,11 +1,19 @@
-
 {
 	"name": "Yuoki",
-	"version": "1.1.02",
-	"date": "2020-11-26",
-	"author": "Yuoki Tani",
-	"factorio_version": "1.1.0",
-	"dependencies": ["base >= 0.18.35","? DeadlockStacking","! YuokiTweaks"],  	
-	"title": "Yuoki Industries",  
-	"description": "adds more content like generators, ressource-transformations, machinery, turrets ..."
+	"version": "1.2.21",
+	"date": "2026-02-07",
+	"author": "YuokiTani",
+	"contact": "https://discord.gg/fM6NjWabAA",
+	"homepage": "https://github.com/jatmn/Yuoki-Factorio-2.0",
+	"factorio_version": "2.0",
+	"dependencies": [
+		"base >= 2.0.42",
+		"? space-age >= 2.0.43",
+		"? quality >= 2.0.43",
+		"! Yuoki_F2",
+		"! yi_engines_F2",
+		"! YuokiTweaks"
+	],
+	"title": "Yuoki Industries",
+	"description": "Yuoki Industries \nadds more content like generators, resource-transformations, machinery, turrets \n \nIntegration Support:\n- Krastorio 2\n- Krastorio 2 Spaced Out\n- Bob's Ores\n- Angel's Refining\n- Omnimatter\n- Planet Omnia\n- Factorio and Conquer: Tiberian Dawn"
 }

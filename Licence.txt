@@ -3,6 +3,9 @@ Yuoki Industries 1.0.x is released under a Creative Commons Attribution-NonComme
 Yuoki Industries 1.0.x is Copyright © YuokiTani & others 2016-20
 Acknowlegments: Thank you to Michael Cowgill (ChurchOrganist), Josh Ricker (Codec), and Glendening for their code contributions
 
+From version 1.2.0 and on is currently maintained by JATMN
+Original License maintained and Original Copyright to YuokiTani
+
 
 This is a human-readable summary of (and not a substitute for) the license - the full legal text of which is available here: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 

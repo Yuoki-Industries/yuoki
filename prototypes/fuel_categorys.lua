@@ -1,7 +1,4 @@
-
-
 data:extend({
 
-  { type = "fuel-category", name = "yfusion", },
-
+	{ type = "fuel-category", name = "yfusion" },
 })

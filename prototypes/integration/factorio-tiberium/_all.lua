@@ -1,0 +1,1 @@
+require("prototypes.integration.factorio-tiberium.ir_atomics") -- Atomics recipe updates

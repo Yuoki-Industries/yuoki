@@ -1,4 +1,6 @@
-require "util"
+require("util")
+
+require("lib.yi-tools")
 
 require("prototypes.z_groups")
 require("prototypes.fuel_categorys")
@@ -24,7 +26,7 @@ require("prototypes.entity.e_entity220")
 
 require("prototypes.item.i_ores")
 require("prototypes.item.i_fluids")
-require("prototypes.item.ir_atomics")
+
 require("prototypes.item.i_electric")
 require("prototypes.item.i_energy")
 require("prototypes.item.i_pipes")
@@ -59,6 +61,7 @@ require("prototypes.objects.y_erfolge")
 require("prototypes.objects.y_player_styles")
 require("prototypes.objects.y_player_styles_items")
 require("prototypes.objects.y_player_equipment")
+require("prototypes.integration.space-age._data") -- Data stage stuff for Space Age
 
 -- autobuilds
 require("prototypes.z_fluids")
@@ -69,13 +72,14 @@ require("prototypes.z_recipes")
 -- overwrite hopefully
 require("prototypes.objects._tiles")
 
+require("prototypes.item.ir_atomics")
 
 --require("Yuoki_0234_data-updates")
 require("prototypes.item.y_stacksizes")
 --require("y_config")
 
 --add list of Yuoki intermeidate producrs to vanilla intermediates (thank you Codec)
-require ("prototypes.y_intermediates_list")
+require("prototypes.y_intermediates_list")
 
 --load configurable character options from settings file
 data.raw["character"]["character"].inventory_size = settings.startup["yuoki-inventory-size"].value

@@ -51,5 +51,12 @@ data.raw["logistic-container"]["y-rare-m1bunker-log"].logistic_slots_count = 1
 --read productivity module setting and call script if true
 local prod_mod = settings.startup["yuoki-prod-mod-behaviour"].value
 if prod_mod == true then
-    require("prototypes.y_prodmod_as_vanilla")
+	require("prototypes.y_prodmod_as_vanilla")
 end
+
+
+
+-- Factorio Space Age updates
+require("prototypes.integration.space-age._all") -- Space Age stuff
+
+
