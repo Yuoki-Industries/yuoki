@@ -54,17 +54,19 @@ data:extend({
 		selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
 		allowed_effects = { "consumption", "speed", "pollution" },
 		base_picture = {
-			filename = "__Yuoki__/graphics/entity/beacon_anim0001.png",
-			width = 160,
-			height = 160,
+			filename = "__Yuoki__/graphics/entity/beacon_place.png",
+			width = 320,
+			height = 320,
+			scale = 0.5,
 			shift = { 0.6875, -0.75 },
 		},
 		animation = {
 			layers = {
 				{
 					filename = "__Yuoki__/graphics/entity/beacon_sheet.png",
-					width = 160,
-					height = 160,
+					width = 320,
+					height = 320,
+					scale = 0.5,
 					line_length = 5,
 					frame_count = 25,
 					shift = { 0.6875, -0.75 },
@@ -73,8 +75,9 @@ data:extend({
 				{
 					filename = "__Yuoki__/graphics/entity/beacon_sheet.png",
 					draw_as_light = true,
-					width = 160,
-					height = 160,
+					width = 320,
+					height = 320,
+					scale = 0.5,
 					line_length = 5,
 					frame_count = 25,
 					shift = { 0.6875, -0.75 },
@@ -104,7 +107,7 @@ data:extend({
 		},
 		vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		energy_usage = "720kW",
-		distribution_effectivity = 0.7, --was 0.65
+		distribution_effectivity = 0.8, --was 0.65, 0.7
 		fast_replaceable_group = "beacon",
 		module_slots = 2,
 		icons_positioning = {
@@ -133,13 +136,13 @@ data:extend({
 		energy_source = {
 			type = "electric",
 			usage_priority = "secondary-input",
-			input_flow_limit = "25MW",
-			buffer_capacity = "800MJ",
+			input_flow_limit = "20MW",
+			buffer_capacity = "900MJ",
 		},
 		recharge_minimum = "50MJ",
 		energy_usage = "500kW",
 		-- per one charge slot
-		charging_energy = "4MW",
+		charging_energy = "2MW",
 		logistics_radius = 64,
 		construction_radius = 72,
 		charge_approach_distance = 10,
