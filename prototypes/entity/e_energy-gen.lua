@@ -566,7 +566,7 @@ data:extend({
 		icon_size = 64,
 		icon = "__Yuoki__/graphics/icons/stir-solar-dish-icon.png",
 		flags = { "placeable-neutral", "player-creation" },
-		minable = { hardness = 0.2, mining_time = 0.5, result = "y-stirling-solar-dish" },
+		minable = { mining_time = 0.5, result = "y-stirling-solar-dish" },
 		max_health = 150,
 		corpse = "medium-remnants",
 		collision_box = { { -0.75, -0.75 }, { 0.75, 0.75 } },
@@ -578,11 +578,12 @@ data:extend({
 		picture = {
 			filename = "__Yuoki__/graphics/entity/stir-solar-dish.png",
 			priority = "high",
-			width = 64,
-			height = 64,
+			width = 128,
+			height = 128,
+			scale = 0.5,
 			shift = { 0, 0 },
 		},
-		production = "75kW",
+		production = "50kW",
 	},
 
 	-- Alien-Solar 1
@@ -608,7 +609,7 @@ data:extend({
 			height = 320,
 			shift = { 1.0, -0.75 },
 		},
-		production = "1600kW",
+		production = "1000kW",
 	},
 	-- Alien-Solar 2
 	{
@@ -633,6 +634,6 @@ data:extend({
 			height = 384,
 			shift = { 1, -0.75 },
 		},
-		production = "3750kW",
+		production = "2000kW",
 	},
 })

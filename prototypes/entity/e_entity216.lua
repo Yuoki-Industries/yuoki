@@ -52,7 +52,8 @@ data:extend({
 		dying_explosion = "medium-explosion",
 		collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
 		selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-		allowed_effects = { "consumption", "speed", "pollution" },
+		allowed_effects = { "consumption", "speed", "pollution" },				
+		--[[
 		base_picture = {
 			filename = "__Yuoki__/graphics/entity/beacon_place.png",
 			width = 320,
@@ -60,6 +61,7 @@ data:extend({
 			scale = 0.5,
 			shift = { 0.6875, -0.75 },
 		},
+		]]
 		animation = {
 			layers = {
 				{
@@ -73,8 +75,8 @@ data:extend({
 					animation_speed = 0.20,
 				},
 				{
-					filename = "__Yuoki__/graphics/entity/beacon_sheet.png",
-					draw_as_light = true,
+					filename = "__Yuoki__/graphics/entity/beacon_shadow.png",
+					draw_as_shadow = true,
 					width = 320,
 					height = 320,
 					scale = 0.5,
@@ -82,17 +84,8 @@ data:extend({
 					frame_count = 25,
 					shift = { 0.6875, -0.75 },
 					animation_speed = 0.20,
-				},
+				},				
 			},
-		},
-		animation_shadow = {
-			filename = "__Yuoki__/graphics/entity/empty32.png",
-			width = 5,
-			height = 5,
-			line_length = 5,
-			frame_count = 25,
-			shift = { 0, 0 },
-			--animation_speed = 0.5
 		},
 		radius_visualisation_picture = {
 			filename = "__base__/graphics/entity/beacon/beacon-radius-visualization.png",
@@ -310,12 +303,12 @@ data:extend({
 			{ 0.3, 0.45 },
 		},
 		base = {
-			filename = "__Yuoki__/graphics/gfx/aqe-unload-e.png",
-			width = 32,
-			height = 32,
-			scale = 0.6,
+			filename = "__Yuoki__/graphics/entity/8080.png",
+			width = 192,
+			height = 192,
+			scale = 0.4,
 			tint = { r = 179 / 255, g = 198 / 255, b = 255 / 255 },
-			shift = { 0.28, 0 },
+			shift = { 0.5, -0.5 },
 		},
 		base_patch = {
 			filename = "__Yuoki__/graphics/entity/empty32.png",
@@ -330,13 +323,13 @@ data:extend({
 			priority = "medium",
 			width = 192,
 			height = 192,
-			scale = 0.5,
+			scale = 0.4,
 			frame_count = 1,
 			line_length = 1,
 			animation_speed = 0.05,
 			tint = { r = 179 / 255, g = 198 / 255, b = 255 / 255 },
 			--shift = {0.5, -0.5}
-			shift = { 0.28, 0 },
+			shift = { 0.5, -0.5 },
 		},
 
 		door_animation_up = {
