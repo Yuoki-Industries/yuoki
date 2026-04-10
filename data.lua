@@ -24,6 +24,8 @@ require("prototypes.entity.resources.y_mine2")
 require("prototypes.entity.e_entity219")
 require("prototypes.entity.e_entity220")
 
+require("prototypes.entity.e_energy-gen-bg")
+
 require("prototypes.item.i_ores")
 require("prototypes.item.i_fluids")
 

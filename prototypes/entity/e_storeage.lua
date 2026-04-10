@@ -205,8 +205,9 @@ data:extend({
 		picture = {
 			filename = "__Yuoki__/graphics/entity/store/y-cg33.png",
 			priority = "high",
-			width = 128,
-			height = 128,
+			width = 256,
+			height = 256,
+			scale = 0.5,
 			shift = { 0.5, -0.125 },
 		},
 		circuit_wire_max_distance = 7.5,
@@ -234,8 +235,9 @@ data:extend({
 		picture = {
 			filename = "__Yuoki__/graphics/entity/store/y-cl33.png",
 			priority = "high",
-			width = 128,
-			height = 128,
+			width = 256,
+			height = 256,
+			scale = 0.5,
 			shift = { 0.5, -0.125 },
 		},
 		circuit_wire_connection_point = {
