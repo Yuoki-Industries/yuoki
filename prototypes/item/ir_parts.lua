@@ -9,7 +9,7 @@ data:extend({
 		subgroup = "y-parts",
 		order = "p-g1",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/bluegear-icon.png",
+		icon = "__Yuoki__/graphics/icons/bluegear_icon.png",
 		ingredients = {
 			{ type = "item", name = "steel-plate", amount = 1 },
 			{ type = "item", name = "y-refined-yres1", amount = 1 },
@@ -49,7 +49,7 @@ data:extend({
 		subgroup = "y-parts",
 		order = "p-g3",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/vessel_structure_icon.png",
+		icon = "__Yuoki__/graphics/icons/vessel_structure64_icon.png",
 		ingredients = {
 			{ type = "item", name = "steel-plate", amount = 2 },
 			{ type = "item", name = "y-unicomp-raw", amount = 1 },
@@ -84,7 +84,7 @@ data:extend({
 		type = "recipe",
 		name = "y-basic-t2-mf",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/maschine-frame-t2.png",
+		icon = "__Yuoki__/graphics/icons/maschine-frame-2_icon.png",
 		ingredients = {
 			{ type = "item", name = "y-conductive-coil-1", amount = 2 },
 			{ type = "item", name = "y_structure_electric", amount = 3 },
@@ -121,7 +121,7 @@ data:extend({
 		type = "item",
 		name = "y-heat-pipe",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/heat-pipe.png",
+		icon = "__Yuoki__/graphics/icons/heat_pipe_icon.png",
 		order = "p-g6",
 		subgroup = "y_parts_e",
 		stack_size = 100,

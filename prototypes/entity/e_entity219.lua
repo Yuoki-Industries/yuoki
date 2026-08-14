@@ -15,7 +15,7 @@ data:extend({
 		},
 		main_product = "y-mechanical-force",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/mfmode.png",
+		icon = "__Yuoki__/graphics/icons/mf_mode_icon.png",
 		order = "1",
 		group = "yuoki_liquids",
 		subgroup = "y-fluid",

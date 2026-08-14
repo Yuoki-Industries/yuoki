@@ -44,7 +44,7 @@ data:extend({
 		type = "beacon",
 		name = "yi_beacon",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/beacon_icon.png",
+		icon = "__Yuoki__/graphics/icons/beacon_64.png",
 		flags = { "placeable-player", "player-creation" },
 		minable = { mining_time = 1, result = "yi_beacon" },
 		max_health = 300,

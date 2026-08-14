@@ -98,7 +98,7 @@ data:extend({
 		},
 		main_product = "yi_beacon",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/beacon_icon.png",
+		icon = "__Yuoki__/graphics/icons/beacon_64.png",
 		order = "a",
 		group = "yuoki",
 		subgroup = "y_line1b",

@@ -79,14 +79,24 @@ data:extend({
 				shift = { 1.0, -0.4 },
 				animation_speed = 0.25,
 			},
-			east, west = {
+			east = {
 				filename = "__Yuoki__/graphics/entity/energy-t2/bg1we.png",
 				width = 320,
 				height = 320,
 				frame_count = 4,
 				line_length = 2,
 				scale = 0.5,
-				shift = { 0.5, -1.0 },				
+				shift = { 0.5, -1.0 },
+				animation_speed = 0.25,
+			},
+			west = {
+				filename = "__Yuoki__/graphics/entity/energy-t2/bg1we.png",
+				width = 320,
+				height = 320,
+				frame_count = 4,
+				line_length = 2,
+				scale = 0.5,
+				shift = { 0.5, -1.0 },
 				animation_speed = 0.25,
 			},
 		}

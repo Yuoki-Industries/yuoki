@@ -54,7 +54,7 @@ data:extend({
 		type = "item",
 		name = "y-unicomp-raw",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/uni-komp-n4-icon.png",
+		icon = "__Yuoki__/graphics/icons/uni_komp_n4_icon.png",
 		group = "yuoki",
 		subgroup = "y-raw-material",
 		order = "a",

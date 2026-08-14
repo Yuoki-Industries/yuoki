@@ -779,6 +779,7 @@ data:extend({
 		vertical_window_bounding_box = { { -0.28125, -0.5 }, { 0.03125, 0.125 } },
 	},
 
+	--[[ disabled because the matching recipe is commented out
 	-- PipeBuffer also flow restriction test
 	{
 		type = "storage-tank",
@@ -901,6 +902,7 @@ data:extend({
 		circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
+	]]
 
 	{
 		type = "pipe",
@@ -1675,6 +1677,7 @@ data:extend({
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
 
+	--[[ disabled because the matching recipes are commented out
 	{
 		type = "storage-tank",
 		name = "y-tank-24k",
@@ -1803,6 +1806,7 @@ data:extend({
 		circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
+	]]
 
 	{
 		type = "storage-tank",
@@ -1933,6 +1937,7 @@ data:extend({
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
 
+	--[[ disabled because the matching recipe is commented out
 	-- Buffer Station also flow restriction test
 	{
 		type = "storage-tank",
@@ -2061,6 +2066,7 @@ data:extend({
 		circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
+	]]
 
 	-- grüne Rohre komplett
 

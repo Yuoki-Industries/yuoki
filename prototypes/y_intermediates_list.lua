@@ -25,7 +25,6 @@ local productivity_item_list = {
 	"y_mud2solidfuel",
 	"y_mixedfuel2rocketfuel",
 	"y-mixfuel-load",
-	"y-wooden-brikett-packed",
 	"y-pure-copper",
 	"y-pure-iron",
 	"y-refined-copper",

@@ -1,4 +1,39 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.23
+Date: 4. 7. 2026
+  Updates:
+    - Added a couple power ratio notes for steam and mechanical force setups, mostly so future balance poking has fewer mystery numbers.
+  Fixes:
+    - Added missing names for the Burner Generator and Mechanical Force bits. No more blank spots where names should be.
+    - Bob's Ores tungsten changed names again, so the Atomic's recipe now follows the new name and should stop crashing on startup.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.22
+Date: 22. 4. 2026
+  Additions:
+    - Added new test Burner Generator: y_bg-1
+  Updates:
+    - This whole release is thanks to mod creator YuokiTani who showed up with surprise updates! 
+    - Large refresh of Yuoki icons and graphics across energy, electric, defense, modules, lamps, storage, tiles, ammo, signs, and materials
+    - Updated accumulator, flywheel, AQE, crystal, beacon, 8080 roboport, Stirling dish, 3x3 storage, and lamp visuals to newer artwork
+    - Beacon visuals updated to newer animated HR graphics with improved shadow/placement visuals
+    - Updated Yuoki path tile layering and several storage/tank sprites
+  Changes:
+    - Rebalanced several accumulators and capacitor devices, including buffer sizes, throughput, cooldowns, and AQE/Crystal durability
+    - YI Beacon distribution effectivity increased from 0.7 to 0.8
+    - YI Roboport energy buffer increased from 800MJ to 900MJ
+    - YI Roboport input flow reduced from 25MW to 20MW
+    - YI Roboport charging energy reduced from 4MW to 2MW
+    - Flywheel, AQE, and Crystal accumulators updated with new footprints, visuals, and power stats
+    - AQE accumulator health increased from 300 to 800
+    - Crystal accumulator health increased from 350 to 1000
+    - Stirling Solar Dish output reduced from 75kW to 50kW
+    - Alien Solar 1 output reduced from 1600kW to 1000kW
+    - Alien Solar 2 output reduced from 3750kW to 2000kW
+    - Rebalanced several electric and energy recipes, including chips, batteries, substations, generators, Obninsk components, and steam turbine crafting
+    - Archaeology dirt digging and washing recipes rebalanced
+    - Several liquid storage tanks had their capacity values increased
+    - Alien lamp and colored lamp recipes are disabled again for now
+---------------------------------------------------------------------------------------------------
 Version: 1.2.21
 Date: 7. 2. 2026
   Integrations:

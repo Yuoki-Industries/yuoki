@@ -30,6 +30,19 @@ turret_laser22f12 = {
     shift = { 0.5, -0.72 },
 }
 
+-- obsolete ->
+y_laser2x2 = {
+	filename = "__Yuoki__/graphics/entity/defense/laser22f12-h-place.png",
+	priority = "medium",
+	width = 128,
+	height = 128,
+	direction_count = 8,
+	frame_count = 1,
+	axially_symmetrical = false,
+	shift = { 0.1875, -0.625 },
+}
+-- <-
+
 data:extend({
     {
         type = "electric-turret",
@@ -53,9 +66,9 @@ data:extend({
         },
         energy_source = {
             type = "electric",
-            buffer_capacity = "20MJ",
-            input_flow_limit = "3125kW",
-            drain = "100kW",
+            buffer_capacity = "8MJ",
+            input_flow_limit = "4800kW",
+            drain = "50kW",
             usage_priority = "primary-input",
         },
         folded_animation = (function()
@@ -86,11 +99,11 @@ data:extend({
 
         attack_parameters = {
             type = "beam",
-            cooldown = 12,
+            cooldown = 30,
             range = 33,
             source_direction_count = 64,
             source_offset = { 0, -3.423489 / 4 },
-            damage_modifier = 5,
+            damage_modifier = 4,
             ammo_category = "laser",
             ammo_type = {
                 --category = "laser",
@@ -101,7 +114,7 @@ data:extend({
                         type = "beam",
                         beam = "laser-beam",
                         max_length = 33,
-                        duration = 12,
+                        duration = 36,
                         source_offset = { 0, -1.31439 },
                     },
                 },

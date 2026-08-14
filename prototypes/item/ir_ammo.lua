@@ -22,6 +22,7 @@ data:extend({
 		order = "a1",
 	},
 
+	--[[
 	{
 		type = "recipe",
 		name = "y-ammo-acid-2",
@@ -41,7 +42,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "b1",
 	},
-
+]]
 	{
 		type = "recipe",
 		name = "y-ammo-hohlspitz",
@@ -116,6 +117,7 @@ data:extend({
 		order = "f1",
 	},
 
+--[[
 	{
 		type = "recipe",
 		name = "y-ammo-krakon",
@@ -134,7 +136,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "g1",
 	},
-
+]]
 	{
 		type = "recipe",
 		name = "y_ammo_case",
@@ -157,7 +159,7 @@ data:extend({
 		type = "recipe",
 		name = "y_ammo_plasma",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
+		icon = "__Yuoki__/graphics/icons/ammo_plasma_64.png",
 		enabled = true,
 		energy_required = 4,
 		ingredients = {
@@ -241,14 +243,14 @@ data:extend({
 		group = "yuoki",
 		subgroup = "y-ammo",
 		order = "a1",
-		stack_size = 250,
+		stack_size = 250,		
 	},
 
 	{
 		type = "item",
 		name = "y_ammo_case",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/ammo_capsel.png",
+		icon = "__Yuoki__/graphics/icons/ammo_kapsel_64.png",
 		group = "yuoki",
 		subgroup = "y-ammo",
 		order = "a2",
@@ -282,7 +284,7 @@ data:extend({
 						},
 						{
 							type = "damage",
-							damage = { amount = 3, type = "physical" },
+							damage = { amount = 4, type = "physical" },
 						},
 					},
 				},
@@ -292,6 +294,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "b1",
 		stack_size = 200,
+		weight = 1 * kg,
 	},
 	{
 		type = "ammo",
@@ -315,7 +318,7 @@ data:extend({
 							entity_name = "explosion-hit",
 						},
 						{ type = "damage", damage = { amount = 7, type = "physical" } },
-						{ type = "damage", damage = { amount = 3, type = "impact" } },
+						{ type = "damage", damage = { amount = 5, type = "impact" } },
 					},
 				},
 			},
@@ -324,6 +327,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "c1",
 		stack_size = 200,
+		weight = 1 * kg,
 	},
 	{
 		type = "ammo",
@@ -348,7 +352,7 @@ data:extend({
 						},
 						{
 							type = "damage",
-							damage = { amount = 12, type = "explosion" },
+							damage = { amount = 15, type = "explosion" },
 						},
 					},
 				},
@@ -358,6 +362,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "d1",
 		stack_size = 200,
+		weight = 1 * kg,
 	},
 	{
 		type = "ammo",
@@ -381,7 +386,7 @@ data:extend({
 							entity_name = "explosion-hit",
 						},
 						{ type = "damage", damage = { amount = 9, type = "poison" } },
-						{ type = "damage", damage = { amount = 3, type = "physical" } },
+						{	type = "damage", damage = { amount = 7, type = "fire" },},
 					},
 				},
 			},
@@ -390,6 +395,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "e1",
 		stack_size = 200,
+		weight = 1 * kg,
 	},
 	{
 		type = "ammo",
@@ -412,7 +418,7 @@ data:extend({
 							type = "create-entity",
 							entity_name = "explosion-hit",
 						},
-						{ type = "damage", damage = { amount = 10, type = "electric" } },
+						{ type = "damage", damage = { amount = 15, type = "electric" } },
 						{ type = "damage", damage = { amount = 2, type = "physical" } },
 					},
 				},
@@ -422,7 +428,9 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "f1",
 		stack_size = 200,
+		weight = 4 * kg,
 	},
+	
 	{
 		type = "ammo",
 		name = "y-ammo-krakon",
@@ -459,7 +467,7 @@ data:extend({
 		type = "ammo",
 		name = "y_ammo_plasma",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
+		icon = "__Yuoki__/graphics/icons/ammo_plasma_64.png",
 		ammo_category = "plasma",
 		ammo_type = {
 			--category = "plasma",
@@ -488,9 +496,9 @@ data:extend({
 							type = "create-entity",
 							entity_name = "explosion-hit",
 						},
-						{ type = "damage", damage = { amount = 90, type = "plasma" } },
-						{ type = "damage", damage = { amount = 20, type = "fire" } },
-						{ type = "damage", damage = { amount = 10, type = "poison" } },
+						{ type = "damage", damage = { amount = 180, type = "plasma" } },
+						{ type = "damage", damage = { amount =  30, type = "fire" } },
+						{ type = "damage", damage = { amount =  30, type = "impact" } },
 					},
 				},
 			},
@@ -498,13 +506,14 @@ data:extend({
 		magazine_size = 100,
 		subgroup = "y-ammo",
 		order = "h1",
-		stack_size = 200,
+		stack_size = 125,
+		weight = 4 * kg,
 	},
 	{
 		type = "ammo",
 		name = "y_ammo_flame",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/capsule_fire.png",
+		icon = "__Yuoki__/graphics/icons/ammo_fire_64.png",
 		ammo_category = "flamethrower",
 		ammo_type = {
 			--category = "flamethrower",
@@ -522,7 +531,8 @@ data:extend({
 		magazine_size = 200,
 		subgroup = "y-ammo",
 		order = "h2",
-		stack_size = 200,
+		stack_size = 125,
+		weight = 4 * kg,
 	},
 	{
 		type = "ammo",
@@ -553,6 +563,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "d[cannon-shell]-c[explosive]",
 		stack_size = 200,
+		weight = 5 * kg,
 	},
 	{
 		type = "ammo",
@@ -581,6 +592,7 @@ data:extend({
 		subgroup = "y-ammo",
 		order = "d[explosive-cannon-shell]-d[artillery]",
 		stack_size = 25,
+		weight = 10 * kg,
 	},
 
 	{

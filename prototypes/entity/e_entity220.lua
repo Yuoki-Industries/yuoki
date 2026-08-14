@@ -339,6 +339,8 @@ data:extend({
 		allowed_effects = { "consumption", "speed", "productivity", "pollution" },
 	},
 
+	--[[ disabled because it depends on y-valve-direction-buffer,
+	     whose recipe/item/prototype family is commented out
 	-- MF-Tank
 	{
 		type = "recipe",
@@ -356,6 +358,7 @@ data:extend({
 		order = "tank-c5",
 		subgroup = "y-fluid-storage",
 	},
+	]]
 	{
 		type = "item",
 		name = "y_mftank",

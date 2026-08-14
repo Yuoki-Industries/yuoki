@@ -22,7 +22,7 @@ data:extend({
 		type = "recipe",
 		name = "y-infused-mud",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/fuel_cell_d.png",
+		icon = "__Yuoki__/graphics/icons/fuel_cell_d_icon.png",
 		enabled = true,
 		energy_required = 16,
 		ingredients = {
@@ -153,7 +153,7 @@ data:extend({
 		name = "y-press-richdust",
 		category = "yuoki-formpress",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/uni-komp-a2-icon.png",
+		icon = "__Yuoki__/graphics/icons/unicomp_icon.png",
 		enabled = true,
 		energy_required = 7.0,
 		ingredients = {
@@ -172,7 +172,7 @@ data:extend({
 		name = "y-smelt-crush-res1",
 		category = "yuoki-formpress",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/n4pellets_icon.png",
+		icon = "__Yuoki__/graphics/icons/n4pellets64_icon.png",
 		enabled = true,
 		energy_required = 3,
 		ingredients = {
@@ -207,7 +207,7 @@ data:extend({
 		name = "y-smelt-crush-res2",
 		category = "yuoki-formpress",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/f7pellets_icon.png",
+		icon = "__Yuoki__/graphics/icons/f7pellets64_icon.png",
 		enabled = true,
 		energy_required = 4.0,
 		ingredients = {
@@ -276,7 +276,7 @@ data:extend({
 		},
 		main_product = "y-quantrinum",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/quantrinum.png",
+		icon = "__Yuoki__/graphics/icons/quantrinum_icon.png",
 		subgroup = "y-tech",
 		order = "m-quantrinum",
 	},

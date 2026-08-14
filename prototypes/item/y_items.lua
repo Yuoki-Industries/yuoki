@@ -25,7 +25,7 @@ data:extend({
 		type = "item",
 		name = "y-mixed-fuel",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/mix-fuel.png",
+		icon = "__Yuoki__/graphics/icons/mix_fuel_icon.png",
 		group = "yuoki",
 		subgroup = "y-fuel",
 		--fuel_category = {"chemical"}, fuel_value = "25MJ",
@@ -35,7 +35,7 @@ data:extend({
 		type = "item",
 		name = "y-mixed-fuel-loaded",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/mix-fuel-loaded.png",
+		icon = "__Yuoki__/graphics/icons/mix_fuel_load_icon.png",
 		group = "yuoki",
 		subgroup = "y-fuel",
 		fuel_category = "chemical",
@@ -53,6 +53,7 @@ data:extend({
 		fuel_value = "10MJ",
 		stack_size = 250,
 	},
+	--[[ disabled because the matching recipe is commented out
 	{
 		type = "item",
 		name = "y-wooden-brikett-packed",
@@ -64,6 +65,7 @@ data:extend({
 		fuel_value = "40MJ",
 		stack_size = 250,
 	},
+	]]
 
 	{
 		type = "item",
@@ -89,7 +91,7 @@ data:extend({
 		type = "item",
 		name = "y-dry_mud",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/dry_mud_icon.png",
+		icon = "__Yuoki__/graphics/icons/dry_mud_icon_64.png",
 		group = "yuoki",
 		subgroup = "yuoki-formpress",
 		--fuel_category = {"chemical"},
