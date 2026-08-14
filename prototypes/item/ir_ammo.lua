@@ -159,7 +159,7 @@ data:extend({
 		type = "recipe",
 		name = "y_ammo_plasma",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/ammo_plasma_64.png",
+		icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
 		enabled = true,
 		energy_required = 4,
 		ingredients = {
@@ -467,7 +467,7 @@ data:extend({
 		type = "ammo",
 		name = "y_ammo_plasma",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/ammo_plasma_64.png",
+		icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
 		ammo_category = "plasma",
 		ammo_type = {
 			--category = "plasma",

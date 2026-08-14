@@ -93,7 +93,7 @@ data:extend({
 		type = "recipe",
 		name = "yi_magnetron",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/magnetron_icon.png",
+		icon = "__Yuoki__/graphics/icons/magnetron.png",
 		energy_required = 1.5,
 		enabled = true,
 		ingredients = {

@@ -172,7 +172,7 @@ data:extend({
 		name = "y-smelt-crush-res1",
 		category = "yuoki-formpress",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/n4pellets64_icon.png",
+		icon = "__Yuoki__/graphics/icons/n4pellets_icon.png",
 		enabled = true,
 		energy_required = 3,
 		ingredients = {
@@ -207,7 +207,7 @@ data:extend({
 		name = "y-smelt-crush-res2",
 		category = "yuoki-formpress",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/f7pellets64_icon.png",
+		icon = "__Yuoki__/graphics/icons/f7pellets_icon.png",
 		enabled = true,
 		energy_required = 4.0,
 		ingredients = {

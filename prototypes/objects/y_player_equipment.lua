@@ -264,7 +264,7 @@ data:extend({
 		type = "item",
 		name = "yi_equip_roboport",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/armor/mobile_roboport_32.png",
+		icon = "__Yuoki__/graphics/armor/mobile_roboport.png",
 		order = "e1",
 		stack_size = 15,
 		place_as_equipment_result = "yi_equip_roboport",
@@ -338,7 +338,7 @@ data:extend({
 		type = "battery-equipment",
 		name = "yi_equip_battery_a",
 		sprite = {
-			filename = "__Yuoki__/graphics/armor/lfg13_64.png",
+			filename = "__Yuoki__/graphics/armor/lfg13.png",
 			width = 64,
 			height = 64,
 			priority = "medium",
@@ -538,7 +538,7 @@ data:extend({
 		name = "yi_equip_roboport",
 		take_result = "yi_equip_roboport",
 		sprite = {
-			filename = "__Yuoki__/graphics/armor/mobile_roboport_64.png",
+			filename = "__Yuoki__/graphics/armor/mobile_roboport.png",
 			width = 64,
 			height = 64,
 			priority = "medium",
