@@ -265,6 +265,7 @@ data:extend({
 		stack_size = 150,
 	},
 
+	--[[
 	{
 		type = "item",
 		name = "y-valve-direction-buffer",
@@ -276,6 +277,7 @@ data:extend({
 		place_result = "y-valve-direction-buffer",
 		stack_size = 20,
 	},
+	]]
 	{
 		type = "item",
 		name = "y-pipe-hc",
@@ -371,6 +373,7 @@ data:extend({
 		stack_size = 15,
 		order = "tank-c1",
 	},
+	--[[
 	{
 		type = "item",
 		name = "y-tank-24k",
@@ -393,4 +396,5 @@ data:extend({
 		stack_size = 5,
 		order = "tank-c3",
 	},
+	]]
 })

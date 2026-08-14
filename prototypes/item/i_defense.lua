@@ -60,18 +60,6 @@ data:extend({
 
 	{
 		type = "item",
-		name = "y-laser-def-s4",
-		icon_size = 64,
-		icon = "__Yuoki__/graphics/entity/defense/laser2x2_r16n-icon.png",
-		subgroup = "y-defense",
-		order = "b[turret]-c[gun-turret]",
-		place_result = "y-laser-def-s4",
-		stack_size = 50,
-		weight = 20 * kg,
-	},
-
-	{
-		type = "item",
 		name = "y_turret_gun1f12",
 		icon_size = 64,
 		icon = "__Yuoki__/graphics/entity/defense/gun_1_icon.png",

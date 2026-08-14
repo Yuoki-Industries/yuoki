@@ -242,7 +242,7 @@ data:extend({
 		type = "item",
 		name = "y_structure_electric",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/caseing-n4wCable_icon.png",
+		icon = "__Yuoki__/graphics/icons/caseing-n4wCable.png",
 		group = "yuoki",
 		subgroup = "y_parts_e",
 		order = "p-g2a",

@@ -250,7 +250,7 @@ data:extend({
 		type = "item",
 		name = "y_ammo_case",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/ammo_kapsel_64.png",
+		icon = "__Yuoki__/graphics/icons/ammo_capsel.png",
 		group = "yuoki",
 		subgroup = "y-ammo",
 		order = "a2",
@@ -513,7 +513,7 @@ data:extend({
 		type = "ammo",
 		name = "y_ammo_flame",
 		icon_size = 64,
-		icon = "__Yuoki__/graphics/icons/ammo_fire_64.png",
+		icon = "__Yuoki__/graphics/icons/capsule_fire.png",
 		ammo_category = "flamethrower",
 		ammo_type = {
 			--category = "flamethrower",
