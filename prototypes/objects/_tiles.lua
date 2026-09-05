@@ -67,13 +67,13 @@ data:extend({
 		type = "tile",
 		name = "y_tile_slagbricks",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "y_tile_slagbricks" },
+		minable = { mining_time = 0.5, result = "y_tile_slagbricks" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 11,
+		layer = 59,
 		layer_group = "ground-artificial",
-		decorative_removal_probability = 1.0,
+		decorative_removal_probability = 0.1,
 		variants = {
 			main = {
 				{
@@ -120,8 +120,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 11,
-		decorative_removal_probability = 1.0,
+		layer = 59,
+		decorative_removal_probability = 0.2,
 		variants = {
 			main = {
 				{
@@ -169,7 +169,7 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 11,
+		layer = 59,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = {
@@ -226,12 +226,12 @@ data:extend({
 		type = "tile",
 		name = "y_tile_slagstones",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "y-slag" },
+		minable = { mining_time = 0.5, result = "y-slag" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.2,
-		layer = 11,
-		decorative_removal_probability = 1.0,
+		layer = 59,
+		decorative_removal_probability = 0.25,
 		variants = {
 			main = {
 				{
@@ -279,7 +279,7 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 2,
-		layer = 11,
+		layer = 59,
 		decorative_removal_probability = 0.1,
 		variants = {
 			main = {

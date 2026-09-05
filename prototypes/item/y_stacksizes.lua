@@ -11,4 +11,5 @@ if data.raw["item"]["stone"].stack_size < 51 then
 	data.raw["item"]["concrete"].stack_size = 500
 	data.raw["item"]["refined-concrete"].stack_size = 500
 	data.raw["item"]["landfill"].stack_size = 500
+	--data.raw["item"]["promethium-asteroid-chunk"].stack_size = 10
 end

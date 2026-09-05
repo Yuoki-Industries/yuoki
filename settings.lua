@@ -35,9 +35,9 @@ data:extend({
 		type = "int-setting",
 		name = "yuoki-player-reach",
 		setting_type = "startup",
-		minimum_value = 10,
-		maximum_value = 32,
-		default_value = 10,
+		minimum_value = 16,
+		maximum_value = 48,
+		default_value = 32,
 		order = "e",
 	},
 	{

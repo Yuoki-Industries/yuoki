@@ -418,7 +418,8 @@ data:extend({
 		subgroup = "y-stargate-r",
 		order = "a",
 		stack_size = 100000,
-		auto_recycle = false,
+		weight = 0.1 * kg,
+		auto_recycle = true,
 	},
 	--ID:305
 	{
@@ -430,7 +431,8 @@ data:extend({
 		subgroup = "y-stargate-r",
 		order = "a",
 		stack_size = 100000,
-		auto_recycle = false,
+		weight = 0.1 * kg,
+		auto_recycle = true,
 	},
 	--ID:290
 	{
@@ -442,6 +444,7 @@ data:extend({
 		subgroup = "y-stargate-r",
 		order = "a",
 		stack_size = 100000,
+		weight = 0.1 * kg,
 		auto_recycle = true,
 	},
 	--ID:289
